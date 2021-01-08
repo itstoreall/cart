@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cart</title>
+  </head>
+
+  <body>
+    <h1>Cart</h1>
+    
+    <nav>
+      <div class="cart">
+        <span class="count">0</span>
+        <button class="buy">BUY</button>
+      </div>
+
+      <div class="user-info">
+        <span class="name"></span>
+        <span class="email"></span>
+      </div>
+    
+      <button class="login show">Login</button>
+      <button class="logout">Logout</button>
+    </nav>
+    
+    <content class="content">
+      <form class="form">
+        <label>
+          <span>name</span>
+          <input type="text" name="name" />
+        </label>
+        <label>
+          <span>number</span>
+          <input type="tel" name="number" />
+        </label>
+        <button type="submit">Add</button>
+      </form>
+    
+      <ul class="list"></ul>
+    </content>
+    
+    <div class="loader">
+      <p>Loading...</p>
+    </div>
+  </body>
+</html>
